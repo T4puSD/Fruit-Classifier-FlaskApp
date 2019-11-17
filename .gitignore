@@ -1,0 +1,16 @@
+*.jpg
+*.jpeg
+*.png
+
+#include this type of files
+!.pb
+
+# remove directories
+.vscode
+test
+# scripts/training/*
+scripts/training/data/models/*
+scripts/training/data/training_summaries/*
+scripts/training/data/bottlenecks/*
+# scripts/training/data/model/*
+# scripts/training/data/training_summaries/*

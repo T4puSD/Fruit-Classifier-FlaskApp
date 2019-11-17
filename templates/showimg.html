@@ -1,0 +1,21 @@
+<html>
+    <head><title>Showing Image</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        img{
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>{{fruite_name.upper()}}</h1>
+        <img src="{{url_for('static',filename='uploads/'+filename)}}" alt="img label"></img>
+        <button><a href="/delete/{{filename}}" >Upload a new Image</a></button>
+    </body>
+    </html>
