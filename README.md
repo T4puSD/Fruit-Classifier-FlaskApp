@@ -34,10 +34,10 @@ So at first you need to retrain the neural net after immediate download of this 
 NOTE: If you already have Python 3.5 and pipenv installed in your system then just open cmd or terminal and type `pipenv install` and pipenv will autometiaclly install and setup the environment for this program to run. After that type `pipenv shell` to activate that environment
 
 # How to retrain the neural network
-* First run the retrain.py file with `python3.5 retrain.py` in cmd/terminal and wait for this program to finishes it's execution
-* Then run ValidationWithRandomImage.py file with `python3.5 ValidationWithRandomImage.py abc2.jpg`
+* First run the retrain.py file with `python3.5 scripts/retrain.py` in cmd/terminal and wait for this program to finishes it's execution
+* Then run ValidationWithRandomImage.py file with `python3.5 scripts/ValidationWithRandomImage.py abc2.jpg`
 
-NOTE: abc2.jpg is an image of banana which is already present in this repo. If you don't provide any argument while running the 2nd python script then by default abc.jpg an image of apple will be taken as input to classify.
+NOTE: abc2.jpg is an image file and it is the inputted image file which will be validated by the classifier.
 
 # How to run the server
 * Navigate to this directory and then open cmd/ terminal here and run `python server.py` and then open the link that provided on the terminal.
