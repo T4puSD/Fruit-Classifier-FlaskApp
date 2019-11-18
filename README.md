@@ -5,6 +5,8 @@
  
  put your train data in the train_photo folder like in this hirerarcy :-
  
+    .
+    |
     train_photo
     |
     -> apple
