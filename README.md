@@ -5,7 +5,7 @@
  
  put your train data in the train_photo folder like in this hirerarcy :-
  
- train_photo
+ `train_photo
     |
     -> apple
         |
@@ -19,7 +19,7 @@
         |
         -> orange01.jpg
         -> orange02.jpg # at least 30 photos
-    ........... like so add as many fruite type as you like to train the neural net
+    ........... like so add as many fruite type as you like to train the neural net`
     
 NOTE : this repo already has two fruite's image in train_photo folder apple and banana
 
