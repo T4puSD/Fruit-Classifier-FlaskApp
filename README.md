@@ -31,7 +31,7 @@ So at first you need to retrain the neural net after immediate download of this 
 * You need Python 3.5
 * Tensorflow version 1.4
 
-NOTE: If you already have Python 3.5 and pipenv installed in your system then just open cmd or terminal and type `pipenv install` and pipenv will autometiaclly install and setup the environment for this program to run. After that type `pipenv shell` to activate that environment
+NOTE: If you already have Python 3.5 and pipenv installed in your system then just open cmd or terminal and type `pipenv install` and pipenv will autometiaclly install and setup the environment for this program to run. After that type `pipenv shell` to activate that environment. Otherwise use the requirements.txt file 
 
 # How to retrain the neural network
 * First run the retrain.py file with `python3.5 scripts/retrain.py` in cmd/terminal and wait for this program to finishes it's execution
